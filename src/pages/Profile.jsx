@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import SimilarListings from '../components/SimilarListings';
 import ActionButton from '../components/ActionButton';
 
-import '../assets/styles/profile.scss';
+import '../assets/styles/Profile.scss';
 
 import photoUser from '../assets/images/ProfileForm.jpg';
 import { Container, FormControl, InputLabel, Input, FormHelperText, Grid } from '@material-ui/core';
