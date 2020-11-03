@@ -1,6 +1,6 @@
 {
-    "version": 2,
-    "name": "holmes",
+    "version": 1.5,
+    "name": "holmesproject",
     "builds": [{ 
         "use": "@vercel/static-build",
         "src": "package.json" }
