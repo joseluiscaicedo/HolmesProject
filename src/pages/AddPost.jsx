@@ -31,34 +31,34 @@ const AddPost = () => {
         <section className='homeDescriptions'>
           <h2>Ubicación</h2>
           <ButtonMenu description='Selecciona tu País' label='País' id='country' />
-          <ButtonMenu description='Venta o Renta' label='Venta o renta' id='country'/>
-          <ButtonMenu description='Selecciona tu Estado o Departamento' label='Estado'id='state'/>
-          <ButtonMenu description='Selecciona tu Holmes' label='Tipo' id='type'/>
-          <ButtonMenu description='Selecciona tu Ciudad' label='Ciudad' id='city'/>
-          <ButtonMenu description='Area' label='Area' id='area'/>
-          <ButtonMenu description='Selecciona tu Colonia o barrio' label='Colonia' id='neightborg'/>
-          <ButtonMenu description='Nivel o Planta' label='Nivel' id='nivel'/>
-          <ButtonMenu description='Selecciona tu Calle' label='Calle' id='street'/>
-          <ButtonMenu description='Costo de Venta o Renta' label='Costo' id='cost'/>
+          <ButtonMenu description='Venta o Renta' label='Venta o renta' id='country' />
+          <ButtonMenu description='Selecciona tu Estado o Departamento' label='Estado'id='state' />
+          <ButtonMenu description='Selecciona tu Holmes' label='Tipo' id='type' />
+          <ButtonMenu description='Selecciona tu Ciudad' label='Ciudad' id='city' />
+          <ButtonMenu description='Área' label='Area' id='area' />
+          <ButtonMenu description='Selecciona tu Colonia o barrio' label='Colonia' id='neightbor' />
+          <ButtonMenu description='Nivel o Planta' label='Nivel' id='nivel' />
+          <ButtonMenu description='Selecciona tu Calle' label='Calle' id='street' />
+          <ButtonMenu description='Costo de Venta o Renta' label='Costo' id='cost' />
         </section>
         <section className='homeDescriptions'>
           <h2>Datos de tu Propiedad</h2>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
-          <ButtonMenu description='Selecciona tu País' label='País' id='country'/>
+          <ButtonMenu description='Número de habitaciones' label='Habitaciones' id='bedrooms' />
+          <ButtonMenu description='Sala' label='Sala' id='country' />
+          <ButtonMenu description='Comedor' label='Comedor' id='country' />
+          <ButtonMenu description='Cocinas Equipadas' label='Cocina' id='country' />
+          <ButtonMenu description='Baños Completos' label='Baños' id='country' />
+          <ButtonMenu description='1/2 Baños' label='1/2 Baños' id='country' />
+          <ButtonMenu description='Patio de Servicio' label='Patio' id='country' />
+          <ButtonMenu description='Jardín' label='Jardín' id='country' />
+          <ButtonMenu description='Lugares de Estacionamiento' label='Estacionamiento' id='country' />
+          <ButtonMenu description='Selecciona el Estrato' label='Estrato' id='country' />
         </section>
         <section className='descriptionText'>
           <h2>Descripción</h2>
-          <form className='description' action=''>
-            <input type='text' id='description' name='description' />
-          </form>
+          {/* <form className='description' action=''> */}
+            <textarea className='description' type='text' id='description' name='description' />
+          {/* </form> */}
         </section>
         <ActionButton text='Guardar Cambios' onClick={() => console.log('a trabajar')} />
         <section className='gallery'>

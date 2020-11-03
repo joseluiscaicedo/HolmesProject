@@ -8,12 +8,14 @@ import '../assets/styles/Profile.scss';
 
 import photoUser from '../assets/images/ProfileForm.jpg';
 import { Container, FormControl, InputLabel, Input, FormHelperText, Grid } from '@material-ui/core';
+import ButtonMenu from '../components/ButtonMenu';
 
 const Profile = () => {
+  const open = () => (
+    $("#uploadfile").click());
   return (
     <>
       <Layout>
-
         <section className='userData'>
           <h1>Mi Perfil</h1>
         </section>
@@ -59,41 +61,17 @@ const Profile = () => {
                 </Grid>
               </Grid>
             </Container>
-            {/* <form className='Grid__Formulario--form' action='' method='post'>
-              <ul>
-                <li>
-                  <label className='labelProfile' htmlFor='name'>Nombre de Usuario:</label>
-                  <input type='text' id='name' name='nombreUsuario' />
-                </li>
-                <li>
-                  <label className='labelProfile' htmlFor='mail'>Nombre(s):</label>
-                  <input type='email' id='mail' name='nombres' />
-                </li>
-                <li>
-                  <label className='labelProfile' htmlFor='mail'>Apellidos:</label>
-                  <input type='email' id='mail' name='apellidos' />
-                </li>
-                <li>
-                  <label className='labelProfile' htmlFor='mail'>Email:</label>
-                  <input type='email' id='mail' name='email' />
-                </li>
-                <li>
-                  <label className='labelProfile' htmlFor='mail'>Telefono:</label>
-                  <input type='email' id='mail' name='telefono' />
-                </li>
-              </ul>
-            </form> */}
           </div>
 
           <div className='Grid__Imagen'>
             <img className='Grid__Imagen--usuario' src={photoUser} alt='' />
             <div className='Grid__Imagen--btnCambiar'>
-              <ActionButton text='Cambiar Imágen' />
+            <ActionButton text='Cambiar imágen' onClick={open} ><input type="file" id="uploadfile" /> </ActionButton>
             </div>
           </div>
           <div className='Grid__Cambios'>
             <div className='Grid__BotonCambios'>
-              <ActionButton text='Guardar cambios' />
+            <ActionButton text='Guardar cambios' />
             </div>
           </div>
           <div className='Grid__imagen--contraseña'>
@@ -107,7 +85,8 @@ const Profile = () => {
         <div className='Grid__MisFavoritos'>
           <SimilarListings />
         </div>
-
+        <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <ActionButton text='Añadir Publicación' to='/addpost'></ActionButton><br/><br/><br/><br/>
         <div className='Mis__Favoritos'>
           <h1>Mis Favoritos</h1>
         </div>
@@ -115,7 +94,7 @@ const Profile = () => {
         <div className='Grid__Publicaciones'>
           <SimilarListings />
         </div>
-
+        <br/><br/>
       </Layout>
 
     </>

@@ -94,7 +94,7 @@ const Header = ({ mode }) => {
           <br />
           <div className="terms">
             <Link to='/' className='advisors'>Aviso de<br/> Privacidad</Link>
-            <Link to='/' className='advisors'>Terminos y<br/> Condiciones</Link>
+            <Link to='/' className='advisors'>Términos y<br/> Condiciones</Link>
           </div>
         </div>
       </Modal>

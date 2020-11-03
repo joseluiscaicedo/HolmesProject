@@ -15,19 +15,21 @@ const Cover = () => (
           steps={[
             'Casa Ideal',
             3000,
-            'Rancho Mexicano',
+            'Apartamento Comodo',
+            3000,
+            'Tu Terreno',
+            3000,
+            'Tu Edificio',
             3000,
             'Hogar Soñado',
             3000,
-            'Apartamento Comodo',
-            3000,
-            'Home',
+            'Tu Holmes',
             3000,
           ]}
         />
       </p>
 
-      Ahora!
+      ¡Ahora!
     </p>
 
   </section>

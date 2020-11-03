@@ -31,13 +31,13 @@ const Footer = ({ title }) => (
         <ul>
           <li><a href='/'>En Venta</a></li>
           <li><a href='/'>Arriendos</a></li>
-          <li><a href='/'>Tipo de Inmueble</a></li>
+          <li><a href='/'>Tipo de Inmuebles</a></li>
         </ul>
       </section>
       <section className='Footer__column'>
         <h5>Servicio al Cliente</h5>
         <ul>
-          <li>Contáctenos</li>
+          <li>Contáctanos</li>
           <li><a href='/'>Acerca de Nosotros</a></li>
           <li><a href='/'>Equipo</a></li>
         </ul>

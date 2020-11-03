@@ -91,7 +91,7 @@ const HeaderMenu = ({ mode }) => {
           <br />
           <div className="terms">
             <Link className='advisors'>Aviso de<br/> Privacidad</Link>
-            <Link className='advisors'>Terminos y<br/> Condiciones</Link>
+            <Link className='advisors'>Términos y<br/> Condiciones</Link>
           </div>
         </div>
       </Modal>
