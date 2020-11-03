@@ -7,7 +7,7 @@ import bed from '../assets/images/bed.png';
 import bathroom from '../assets/images/bath.png';
 import area from '../assets/images/meters.png';
 
-import '../assets/styles/components/Card.scss';
+import '../assets/styles/components/card.scss';
 
 const Card = ({ title }) => {
   return (
